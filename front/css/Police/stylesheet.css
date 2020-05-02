@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'hvd_rowdyregular';
+    src: url('HVD_Rowdy-webfont.eot');
+    src: url('HVD_Rowdy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('HVD_Rowdy-webfont.woff2') format('woff2'),
+         url('HVD_Rowdy-webfont.woff') format('woff'),
+         url('HVD_Rowdy-webfont.ttf') format('truetype'),
+         url('HVD_Rowdy-webfont.svg#hvd_rowdyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

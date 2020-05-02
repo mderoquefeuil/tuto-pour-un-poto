@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'hvd_rowdyregular';
+    src: url('Police/HVD_Rowdy-webfont.eot');
+    src: url('Police/HVD_Rowdy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/HVD_Rowdy-webfont.woff') format('woff'),
+         url('Police/HVD_Rowdy-webfont.ttf') format('truetype'),
+         url('Police/HVD_Rowdy-webfont.svg#hvd_rowdyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*
+{
+	font-family: verdana;
+}
+
+#font
+{
+	font-family: 'hvd_rowdyregular', Impact;
+	color: red
+}
+
+h1
+{
+	border: 1px red solid; /*ajout bordure pour le titre de 2 pixels, rouge, avec un trait continu*/
+	color: blue;
+	text-align: center;
+}
+
+/*mise en forme des liens par défaut (a), quand ils sont survolés a:hover et quand ils ont déjà été visités a:visited*/
+
+a
+{
+	text-decoration: none;
+	color: red;
+}
+
+a:hover
+{
+text-decoration: underline;
+color: green;
+}
+
+a:visited
+{
+	color: grey;
+}
+
+/*fin mise en forme des liens*/;
+
+
+#color
+{
+background: url(couleurs.jpg) no-repeat left;
+opacity: 1
+}
+
+#anim:hover
+{
+	background-color: blue;
+	background-opacity: 0.5;
+}
+
+figure
+{
+	text-align: center; /*text-align marche aussi sur les images*/
+	background-color: #7a9180;
+	background-opacity: 0.5
+
+}
+
+figcaption
+{
+	font-size:0.7em;
+}
+
